@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OutfitBold';
+    src: url(assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OutfitSemiBold';
+        src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+    }
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-color: #F3E5D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.MainDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 736px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.mainImage {
+    border-radius: 12px;
+}
+
+.MainTitle {
+    font-family: 'YoungSerif';
+    font-size: 40px;
+    color: #312E2C;
+    font-weight: 100;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.Description {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #5F564D;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: 32px;
+}
+
+.PrepTime {
+    height: auto;
+    width: auto;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    background-color: #FFF7FB;
+    border-radius: 16px;
+}
+
+.PrepTime h4 {
+    font-family: 'OutfitSemiBold';
+    font-size: 20px;
+    color: #7A284E;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+}
+
+.PrepTime ul li {
+    font-family: 'Outfit';
+    color: #5F564D;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.PrepTime ul li span {
+    font-family: 'OutfitBold';
+    color: #312E2C;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.Ingredients h2 {
+    font-family: 'YoungSerif';
+    font-size: 28px;
+    font-weight: 100;
+    color: #854632;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.Ingredients ul li {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #5F564D;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+hr {
+    border: 0.5px solid #E6E2E0;
+    margin: 32px 0;
+}
+
+.Instructions h2 {
+    font-family: 'YoungSerif';
+    font-size: 28px;
+    font-weight: 100;
+    color: #854632;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.Instructions ol li {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #5F564D;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.Instructions ol li span {
+    font-family: 'OutfitBold';
+    color: #312E2C;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.Nutrition h2 {
+    font-family: 'YoungSerif';
+    font-size: 28px;
+    font-weight: 100;
+    color: #854632;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.Nutrition p {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #5F564D;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.Nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Nutrition tr td {
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: #5F564D;
+    line-height: 150%;
+    letter-spacing: 0px;
+    padding: 8px 0;
+    border-bottom: 1px solid #E6E2E0;
+}
+
+.Nutrition tr:last-child td {
+    border-bottom: none;
+}
+
+.Nutrition td strong {
+    font-family: 'OutfitBold';
+    color: #854632;
+}
