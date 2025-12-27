@@ -212,6 +212,10 @@ hr {
         margin-right: 32px;
     }
 
+    .MainTitle {
+        font-size: 32px;
+    }
+
     .PrepTime {
         padding: 24px;
     }
